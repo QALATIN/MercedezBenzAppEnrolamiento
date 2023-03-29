@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:clickable="true"
+    tools:context=".ui.nuevosolicitante.fingerprint.HuellasFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="30px"
+        android:background="@color/app_white_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fecha_atras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40px"
+            android:visibility="gone"
+            android:layout_marginTop="30px"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/corpoattlecondofficeregular"
+            android:text="Captura de huellas"
+            android:textAlignment="center"
+            android:textSize="40px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resetSensor"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:drawableStart="@mipmap/reload"
+            android:drawablePadding="10dp"
+            android:visibility="invisible"
+            android:focusable="true"
+            android:fontFamily="@font/corpostextofficebold"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:text="Reiniciar sensor de huellas"
+            android:textColor="@color/app_blue_initial"
+            android:textSize="15sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_titulo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/texto_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:gravity="center"
+            android:text="Ahora capturaras las huellas del solicitante empezaras con su mano derecha"
+            android:textAlignment="center"
+            android:textSize="22px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_titulo" />
+
+        <TextView
+            android:id="@+id/texto_mensaje2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:gravity="center"
+            android:text="Huella previamente registrada, ponga otro dedo"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje" />
+
+        <ImageView
+            android:id="@+id/slot_pulgar"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_initial"
+            android:src="@mipmap/nofinger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mano_pulgar" />
+
+        <ImageView
+            android:id="@+id/slot_indice"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_initial"
+            android:src="@mipmap/nofinger"
+            app:layout_constraintStart_toEndOf="@+id/slot_pulgar"
+            app:layout_constraintTop_toBottomOf="@+id/mani_inidice" />
+
+        <ImageView
+            android:id="@+id/slot_medio"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_initial"
+            android:src="@mipmap/nofinger"
+            app:layout_constraintStart_toEndOf="@+id/slot_indice"
+            app:layout_constraintTop_toBottomOf="@+id/mano_medio" />
+
+        <ImageView
+            android:id="@+id/slot_anular"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_initial"
+            android:src="@mipmap/nofinger"
+            app:layout_constraintStart_toEndOf="@+id/slot_medio"
+            app:layout_constraintTop_toBottomOf="@+id/mano_anular" />
+
+        <ImageView
+            android:id="@+id/slot_menique"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_initial"
+            android:src="@mipmap/nofinger"
+            app:layout_constraintStart_toEndOf="@+id/slot_anular"
+            app:layout_constraintTop_toBottomOf="@+id/mano_menique" />
+
+        <ImageView
+            android:id="@+id/mano_pulgar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/img_pulgar_der"
+            app:layout_constraintEnd_toEndOf="@+id/slot_pulgar"
+            app:layout_constraintStart_toStartOf="@+id/slot_pulgar"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <ImageView
+            android:id="@+id/mani_inidice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/img_indice_der"
+            app:layout_constraintEnd_toEndOf="@+id/slot_indice"
+            app:layout_constraintStart_toStartOf="@+id/slot_indice"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <ImageView
+            android:id="@+id/mano_medio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/img_medio_der"
+            app:layout_constraintEnd_toEndOf="@+id/slot_medio"
+            app:layout_constraintStart_toStartOf="@+id/slot_medio"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <ImageView
+            android:id="@+id/mano_anular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/img_anular_der"
+            app:layout_constraintEnd_toEndOf="@+id/slot_anular"
+            app:layout_constraintStart_toStartOf="@+id/slot_anular"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <ImageView
+            android:id="@+id/mano_menique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/img_menique_der"
+            app:layout_constraintEnd_toEndOf="@+id/slot_menique"
+            app:layout_constraintStart_toStartOf="@+id/slot_menique"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/captura_huellas"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Capturar"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/omitir_dedo"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Omitir dedo"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recapturar"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginStart="48dp"
+            android:backgroundTint="@color/app_blue_initial"
+            android:enabled="false"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Cancelar"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/regresar_dedo"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/app_blue_initial"
+            android:enabled="false"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Regresar dedo anterior"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/finalizar"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Siguiente"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+        <ImageView
+            android:id="@+id/gif_mercedes"
+            android:layout_width="75px"
+            android:layout_height="75px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slot_medio" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

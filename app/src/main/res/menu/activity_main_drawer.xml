@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/inicio_icon"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_aviso"
+            android:icon="@mipmap/m_solicitudnueva"
+            android:title="Nuevo solicitante" />
+
+        <item
+            android:id="@+id/nav_consulta"
+            android:icon="@mipmap/m_consultasolitcitud"
+            android:title="Consulta solicitud" />
+
+
+        <item
+
+            android:visible="true"
+
+            android:title="" />
+        <item
+
+            android:visible="true"
+
+            android:title="" />
+        <item
+
+            android:visible="true"
+
+            android:title="" />
+        <item
+
+            android:visible="true"
+
+            android:title="" />
+
+        <item
+
+            android:id="@+id/nav_extra"
+            android:icon="@mipmap/info40"
+            android:title="Enviar informe"/>
+        <!--<item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:enabled="false"
+            android:title="Ajustes" />-->
+
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:title="Detalles"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="Detalles">
+            <menu>
+                <item
+                    android:id="@+id/nav_version"
+                    android:visible="true"
+                    android:checkable="false"
+                    android:title="Versión 1.0" />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>
+
+
+
+

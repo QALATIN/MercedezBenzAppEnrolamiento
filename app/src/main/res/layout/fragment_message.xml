@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".util.UpdateFragment">
+
+    <ImageView
+        android:id="@+id/cerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:clickable="true"
+        android:layout_marginEnd="10dp"
+        android:src="@mipmap/baseline_close_black_36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/corpostextofficebold"
+        android:text="Aviso"
+        android:textAlignment="center"
+        android:textColor="@color/app_blue_initial"
+        android:textSize="22px" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/corpostextofficebold"
+        android:text="Intermitencia en un servicio, intenté más tarde, si persiste el problema comuniquesé a soporte."
+        android:textAlignment="center"
+        android:textColor="@color/app_negro_texto"
+        android:textSize="22px" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/accept"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="false"
+            android:layout_marginHorizontal="50dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Aceptar"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp" />
+
+
+       <!-- <ImageView
+            android:id="@+id/img_gif"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputLayoutPass" />-->
+
+       <!-- <com.google.android.material.button.MaterialButton
+            android:id="@+id/camara"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0dp"
+            android:layout_height="75px"
+            android:layout_marginHorizontal="40px"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Tomar foto"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp" />-->
+    </LinearLayout>
+
+
+</RelativeLayout>
