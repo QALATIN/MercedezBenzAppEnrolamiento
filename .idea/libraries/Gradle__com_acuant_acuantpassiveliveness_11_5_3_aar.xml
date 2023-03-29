@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acuant:acuantpassiveliveness:11.5.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b813d92376bae08cbe1ba7d4319f9ea2/transformed/acuantpassiveliveness-11.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b813d92376bae08cbe1ba7d4319f9ea2/transformed/acuantpassiveliveness-11.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b813d92376bae08cbe1ba7d4319f9ea2/transformed/acuantpassiveliveness-11.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

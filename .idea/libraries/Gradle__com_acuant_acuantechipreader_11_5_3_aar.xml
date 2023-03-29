@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acuant:acuantechipreader:11.5.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0f2315a73f1bf75bb6c60698f8768d5b/transformed/acuantechipreader-11.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0f2315a73f1bf75bb6c60698f8768d5b/transformed/acuantechipreader-11.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0f2315a73f1bf75bb6c60698f8768d5b/transformed/acuantechipreader-11.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

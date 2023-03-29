@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acuant:acuantcommon:11.5.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b3eb4d6625c0b44dc73986e194bfd962/transformed/acuantcommon-11.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b3eb4d6625c0b44dc73986e194bfd962/transformed/acuantcommon-11.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b3eb4d6625c0b44dc73986e194bfd962/transformed/acuantcommon-11.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

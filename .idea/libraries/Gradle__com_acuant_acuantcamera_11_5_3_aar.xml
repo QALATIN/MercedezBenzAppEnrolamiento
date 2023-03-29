@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acuant:acuantcamera:11.5.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/041dca60b8cd169c609bc37e3f059140/transformed/acuantcamera-11.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/041dca60b8cd169c609bc37e3f059140/transformed/acuantcamera-11.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/041dca60b8cd169c609bc37e3f059140/transformed/acuantcamera-11.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

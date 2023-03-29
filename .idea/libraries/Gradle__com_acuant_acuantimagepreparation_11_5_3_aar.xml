@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acuant:acuantimagepreparation:11.5.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8594d90a69cee61ef604d99240eeba81/transformed/acuantimagepreparation-11.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8594d90a69cee61ef604d99240eeba81/transformed/acuantimagepreparation-11.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8594d90a69cee61ef604d99240eeba81/transformed/acuantimagepreparation-11.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

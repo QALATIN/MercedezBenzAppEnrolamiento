@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5f0e53a7c35de167e03e7598da3a992c/transformed/Aware-FaceCapture-DeviceControl/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f0e53a7c35de167e03e7598da3a992c/transformed/Aware-FaceCapture-DeviceControl/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f0e53a7c35de167e03e7598da3a992c/transformed/Aware-FaceCapture-DeviceControl/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
