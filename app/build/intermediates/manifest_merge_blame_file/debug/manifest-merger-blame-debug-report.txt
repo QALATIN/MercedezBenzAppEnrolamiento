@@ -1,0 +1,647 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.latinid.mercedes"
+4    android:versionCode="1"
+5    android:versionName="1.2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.STORAGE" />
+11-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:7:5-66
+11-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:7:22-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:9:5-65
+13-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:9:22-62
+14    <uses-permission android:name="android.permission.NFC" />
+14-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:10:5-62
+14-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:10:22-59
+15    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+15-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:11:5-82
+15-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:11:22-79
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:12:5-79
+16-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:13:5-81
+17-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+18-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:14:5-16:47
+18-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:15:9-60
+19    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+19-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:18:5-83
+19-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:18:22-80
+20
+21    <uses-feature android:name="android.hardware.camera" />
+21-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:20:5-60
+21-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:20:19-57
+22    <uses-feature android:name="android.hardware.camera.autofocus" />
+22-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:21:5-70
+22-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:21:19-67
+23
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:23:5-80
+24-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:23:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:24:5-81
+25-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:24:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:11:5-66
+26-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:11:22-63
+27
+28    <uses-feature
+28-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:19:5-21:35
+29        android:name="android.hardware.camera.front"
+29-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:20:9-53
+30        android:required="true" />
+30-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:21:9-32
+31    <uses-feature
+31-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.camera.front.autofocus"
+32-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:23:9-63
+33        android:required="false" /> <!-- Tell the system this app requires OpenGL ES 2.0. -->
+33-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:27:5-29:35
+35        android:glEsVersion="0x00020000"
+35-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:28:9-41
+36        android:required="true" />
+36-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:29:9-32
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+38-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+39    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+39-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+39-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:22-76
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+40-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+41-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+41-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+42
+43    <application
+43-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:26:5-98:19
+44        android:allowBackup="true"
+44-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:27:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.8.0] C:\Users\ahuerta\.gradle\caches\transforms-3\065dfa018132f0a621878cd66243e674\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+46        android:dataExtractionRules="@xml/data_extraction_rules"
+46-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:28:9-65
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:fullBackupContent="@xml/backup_rules"
+49-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:29:9-54
+50        android:hardwareAccelerated="true"
+50-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:32:9-43
+51        android:icon="@mipmap/meche"
+51-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:30:9-37
+52        android:label="@string/app_name"
+52-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:31:9-41
+53        android:largeHeap="true"
+53-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:32:9-33
+54        android:networkSecurityConfig="@xml/network_security_config"
+54-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:33:9-69
+55        android:roundIcon="@mipmap/meche_round"
+55-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:34:9-48
+56        android:supportsRtl="true"
+56-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:35:9-35
+57        android:testOnly="true"
+58        android:theme="@style/Theme.Mercedes" >
+58-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:36:9-46
+59        <activity
+59-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:38:9-42:62
+60            android:name="com.latinid.mercedes.ui.nuevosolicitante.capturaid.CapNfcActivity"
+60-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:39:13-73
+61            android:configChanges="orientation|screenSize"
+61-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:40:13-59
+62            android:exported="true"
+62-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:41:13-36
+63            android:screenOrientation="landscape" />
+63-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:42:13-50
+64        <activity
+64-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:43:9-82:20
+65            android:name="com.latinid.mercedes.Main3Activity"
+65-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:44:13-42
+66            android:configChanges="orientation|screenSize"
+66-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:45:13-59
+67            android:exported="true"
+67-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:46:13-36
+68            android:label="@string/app_name"
+68-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:47:13-45
+69            android:screenOrientation="landscape"
+69-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:48:13-50
+70            android:theme="@style/SplashTheme" >
+70-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:49:13-47
+71            <intent-filter>
+71-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:50:13-54:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:51:17-69
+72-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:51:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:53:17-77
+74-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:53:27-74
+75            </intent-filter>
+76            <!--
+77            <activity
+78            android:name=".MainActivity"
+79            android:configChanges="orientation|screenSize"
+80            android:exported="true"
+81            android:label="@string/app_name"
+82            android:screenOrientation="landscape"
+83            android:theme="@style/SplashTheme">
+84            -->
+85
+86
+87            <!-- android:theme="@style/Theme.Mercedes.NoActionBar" -->
+88
+89            <intent-filter>
+89-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:68:13-81:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:69:17-69
+90-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:69:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:71:17-76
+92-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:71:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:72:17-78
+93-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:72:27-75
+94
+95                <data
+95-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:74:17-77:45
+96                    android:host="www.mercedesapp.com"
+96-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:75:21-55
+97                    android:pathPrefix="/app"
+97-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:76:21-46
+98                    android:scheme="http" />
+98-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:77:21-42
+99                <data
+99-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:74:17-77:45
+100                    android:host="mercedes"
+100-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:75:21-55
+101                    android:scheme="app" />
+101-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:77:21-42
+102            </intent-filter>
+103        </activity>
+104
+105        <meta-data
+105-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:84:9-87:45
+106            android:name="com.google.android.gms.vision.DEPENDENCIES"
+106-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:85:13-70
+107            android:value="barcode,face" />
+107-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:86:13-41
+108
+109        <provider
+110            android:name="androidx.core.content.FileProvider"
+110-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:90:13-62
+111            android:authorities="com.latinid.mercedes.fileprovider"
+111-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:91:13-64
+112            android:exported="false"
+112-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:92:13-37
+113            android:grantUriPermissions="true" >
+113-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:93:13-47
+114            <meta-data
+114-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:94:13-96:54
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:95:17-67
+116                android:resource="@xml/file_paths" />
+116-->C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\AndroidManifest.xml:96:17-51
+117        </provider>
+118
+119        <activity
+119-->[com.acuant:acuantipliveness:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\ed7e4ac00096589939696e3ea1085b1a\transformed\acuantipliveness-11.5.3\AndroidManifest.xml:10:9-12:40
+120            android:name="com.acuant.acuantipliveness.facialcapture.activity.FacialCaptureActivity"
+120-->[com.acuant:acuantipliveness:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\ed7e4ac00096589939696e3ea1085b1a\transformed\acuantipliveness-11.5.3\AndroidManifest.xml:11:13-100
+121            android:exported="false" /> <!-- Orientation needs to be locked to stop the possibility an extra orientation change -->
+121-->[com.acuant:acuantipliveness:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\ed7e4ac00096589939696e3ea1085b1a\transformed\acuantipliveness-11.5.3\AndroidManifest.xml:12:13-37
+122        <activity
+122-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:36:9-43:55
+123            android:name="com.iproov.sdk.ui.activity.IProovPortraitActivity"
+123-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:37:13-77
+124            android:configChanges="locale|screenSize"
+124-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:38:13-54
+125            android:exported="false"
+125-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:39:13-37
+126            android:hardwareAccelerated="true"
+126-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:40:13-47
+127            android:keepScreenOn="true"
+127-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:41:13-40
+128            android:screenOrientation="portrait"
+128-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:42:13-49
+129            android:theme="@style/iproov__AppTheme" />
+129-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:43:13-52
+130        <activity
+130-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:44:9-51:55
+131            android:name="com.iproov.sdk.ui.activity.IProovLandscapeActivity"
+131-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:45:13-78
+132            android:configChanges="locale|screenSize"
+132-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:46:13-54
+133            android:exported="false"
+133-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:47:13-37
+134            android:hardwareAccelerated="true"
+134-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:48:13-47
+135            android:keepScreenOn="true"
+135-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:49:13-40
+136            android:screenOrientation="landscape"
+136-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:50:13-50
+137            android:theme="@style/iproov__AppTheme" />
+137-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:51:13-52
+138        <activity
+138-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:52:9-59:55
+139            android:name="com.iproov.sdk.ui.activity.IProovReversePortraitActivity"
+139-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:53:13-84
+140            android:configChanges="locale|screenSize"
+140-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:54:13-54
+141            android:exported="false"
+141-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:55:13-37
+142            android:hardwareAccelerated="true"
+142-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:56:13-47
+143            android:keepScreenOn="true"
+143-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:57:13-40
+144            android:screenOrientation="reversePortrait"
+144-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:58:13-56
+145            android:theme="@style/iproov__AppTheme" />
+145-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:59:13-52
+146        <activity
+146-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:60:9-67:55
+147            android:name="com.iproov.sdk.ui.activity.IProovReverseLandscapeActivity"
+147-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:61:13-85
+148            android:configChanges="locale|screenSize"
+148-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:62:13-54
+149            android:exported="false"
+149-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:63:13-37
+150            android:hardwareAccelerated="true"
+150-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:64:13-47
+151            android:keepScreenOn="true"
+151-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:65:13-40
+152            android:screenOrientation="reverseLandscape"
+152-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:66:13-57
+153            android:theme="@style/iproov__AppTheme" />
+153-->[com.iproov.sdk:iproov:7.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\561a08db57262b665a0d4b6a191760dd\transformed\iproov-7.1.0\AndroidManifest.xml:67:13-52
+154        <activity
+154-->[com.acuant:acuantcamera:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\041dca60b8cd169c609bc37e3f059140\transformed\acuantcamera-11.5.3\AndroidManifest.xml:16:9-21:36
+155            android:name="com.acuant.acuantcamera.camera.AcuantCameraActivity"
+155-->[com.acuant:acuantcamera:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\041dca60b8cd169c609bc37e3f059140\transformed\acuantcamera-11.5.3\AndroidManifest.xml:17:13-79
+156            android:resizeableActivity="false"
+156-->[com.acuant:acuantcamera:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\041dca60b8cd169c609bc37e3f059140\transformed\acuantcamera-11.5.3\AndroidManifest.xml:18:13-47
+157            android:rotationAnimation="seamless"
+157-->[com.acuant:acuantcamera:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\041dca60b8cd169c609bc37e3f059140\transformed\acuantcamera-11.5.3\AndroidManifest.xml:19:13-49
+158            android:screenOrientation="portrait" />
+158-->[com.acuant:acuantcamera:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\041dca60b8cd169c609bc37e3f059140\transformed\acuantcamera-11.5.3\AndroidManifest.xml:20:13-49
+159        <activity
+159-->[com.acuant:acuantfacecapture:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\d4c43cfb00f8669d366a7b71388f6292\transformed\acuantfacecapture-11.5.3\AndroidManifest.xml:10:9-14:66
+160            android:name="com.acuant.acuantfacecapture.camera.AcuantFaceCameraActivity"
+160-->[com.acuant:acuantfacecapture:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\d4c43cfb00f8669d366a7b71388f6292\transformed\acuantfacecapture-11.5.3\AndroidManifest.xml:11:13-88
+161            android:exported="false"
+161-->[com.acuant:acuantfacecapture:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\d4c43cfb00f8669d366a7b71388f6292\transformed\acuantfacecapture-11.5.3\AndroidManifest.xml:12:13-37
+162            android:screenOrientation="portrait"
+162-->[com.acuant:acuantfacecapture:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\d4c43cfb00f8669d366a7b71388f6292\transformed\acuantfacecapture-11.5.3\AndroidManifest.xml:13:13-49
+163            android:theme="@style/Theme.AppCompat.NoActionBar" />
+163-->[com.acuant:acuantfacecapture:11.5.3] C:\Users\ahuerta\.gradle\caches\transforms-3\d4c43cfb00f8669d366a7b71388f6292\transformed\acuantfacecapture-11.5.3\AndroidManifest.xml:14:13-63
+164
+165        <service
+165-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:9:9-15:19
+166            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+166-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:10:13-91
+167            android:directBootAware="true"
+167-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:17:13-43
+168            android:exported="false" >
+168-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:11:13-37
+169            <meta-data
+169-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:12:13-14:85
+170                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+170-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:13:17-120
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\77b48ae0cbb8cccc8e1bf0d02eab77e4\transformed\play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:14:17-82
+172            <meta-data
+172-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\becb111d9703cd09c5db2c2da9ee9f57\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:12:13-14:85
+173                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+173-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\becb111d9703cd09c5db2c2da9ee9f57\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:13:17-114
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\becb111d9703cd09c5db2c2da9ee9f57\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:14:17-82
+175            <meta-data
+175-->[com.google.mlkit:vision-common:17.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\bdb85c6b0aa3249c6163085a5f9958d0\transformed\vision-common-17.1.0\AndroidManifest.xml:12:13-14:85
+176                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+176-->[com.google.mlkit:vision-common:17.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\bdb85c6b0aa3249c6163085a5f9958d0\transformed\vision-common-17.1.0\AndroidManifest.xml:13:17-124
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.mlkit:vision-common:17.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\bdb85c6b0aa3249c6163085a5f9958d0\transformed\vision-common-17.1.0\AndroidManifest.xml:14:17-82
+178            <meta-data
+178-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:20:13-22:85
+179                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+179-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:21:17-120
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:22:17-82
+181        </service>
+182
+183        <provider
+183-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:9:9-13:38
+184            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+184-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:10:13-78
+185            android:authorities="com.latinid.mercedes.mlkitinitprovider"
+185-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:11:13-69
+186            android:exported="false"
+186-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:12:13-37
+187            android:initOrder="99" />
+187-->[com.google.mlkit:common:18.1.0] C:\Users\ahuerta\.gradle\caches\transforms-3\9e42f8bc03896705bc0c62e77d2b1f6e\transformed\common-18.1.0\AndroidManifest.xml:13:13-35
+188
+189        <activity
+189-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\ba4f05d988fe077a2f50a005de66dec7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+190            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+190-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\ba4f05d988fe077a2f50a005de66dec7\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\ba4f05d988fe077a2f50a005de66dec7\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ahuerta\.gradle\caches\transforms-3\ba4f05d988fe077a2f50a005de66dec7\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\edefef689f7e9e59622d967067450d59\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\edefef689f7e9e59622d967067450d59\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\edefef689f7e9e59622d967067450d59\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+197
+198        <uses-library
+198-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+199            android:name="androidx.window.extensions"
+199-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+200            android:required="false" />
+200-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+201        <uses-library
+201-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+202            android:name="androidx.window.sidecar"
+202-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+203            android:required="false" />
+203-->[androidx.window:window:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\0f3eca9512f0eb9502afcb0282c13bf3\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+204
+205        <provider
+205-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+206            android:name="androidx.startup.InitializationProvider"
+206-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+207            android:authorities="com.latinid.mercedes.androidx-startup"
+207-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+209            <meta-data
+209-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+210                android:name="androidx.work.WorkManagerInitializer"
+210-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+211                android:value="androidx.startup" />
+211-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+212            <meta-data
+212-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\46f78acda5fcb3a1d65440954eeb5b73\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+213                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+213-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\46f78acda5fcb3a1d65440954eeb5b73\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+214                android:value="androidx.startup" />
+214-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahuerta\.gradle\caches\transforms-3\46f78acda5fcb3a1d65440954eeb5b73\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+215            <meta-data
+215-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahuerta\.gradle\caches\transforms-3\cb5baf6f6cd3c337c16cbd482c02d812\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+216                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+216-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahuerta\.gradle\caches\transforms-3\cb5baf6f6cd3c337c16cbd482c02d812\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+217                android:value="androidx.startup" />
+217-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahuerta\.gradle\caches\transforms-3\cb5baf6f6cd3c337c16cbd482c02d812\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+218        </provider>
+219
+220        <service
+220-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+221            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+221-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+223            android:enabled="@bool/enable_system_alarm_service_default"
+223-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+224            android:exported="false" />
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+225        <service
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+226            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+228            android:enabled="@bool/enable_system_job_service_default"
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+229            android:exported="true"
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+230            android:permission="android.permission.BIND_JOB_SERVICE" />
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+231        <service
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+232            android:name="androidx.work.impl.foreground.SystemForegroundService"
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+234            android:enabled="@bool/enable_system_foreground_service_default"
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+235            android:exported="false" />
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+236
+237        <receiver
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+238            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+239            android:directBootAware="false"
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+240            android:enabled="true"
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+241            android:exported="false" />
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+242        <receiver
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+243            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+248                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+249                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+250            </intent-filter>
+251        </receiver>
+252        <receiver
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+253            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+254            android:directBootAware="false"
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+255            android:enabled="false"
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+256            android:exported="false" >
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+257            <intent-filter>
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+258                <action android:name="android.intent.action.BATTERY_OKAY" />
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+259                <action android:name="android.intent.action.BATTERY_LOW" />
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+265            android:enabled="false"
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+268                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+269                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+270            </intent-filter>
+271        </receiver>
+272        <receiver
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+273            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+274            android:directBootAware="false"
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+275            android:enabled="false"
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+276            android:exported="false" >
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+278                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+282            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+283            android:directBootAware="false"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+284            android:enabled="false"
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+285            android:exported="false" >
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+286            <intent-filter>
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+287                <action android:name="android.intent.action.BOOT_COMPLETED" />
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+288                <action android:name="android.intent.action.TIME_SET" />
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+289                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+290            </intent-filter>
+291        </receiver>
+292        <receiver
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+293            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+294            android:directBootAware="false"
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+295            android:enabled="@bool/enable_system_alarm_service_default"
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+296            android:exported="false" >
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+297            <intent-filter>
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+298                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+299            </intent-filter>
+300        </receiver>
+301        <receiver
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+302            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+303            android:directBootAware="false"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+304            android:enabled="true"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+305            android:exported="true"
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+306            android:permission="android.permission.DUMP" >
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+307            <intent-filter>
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+308                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\ahuerta\.gradle\caches\transforms-3\a512f6dd204af4236d5750a06716d7f9\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+309            </intent-filter>
+310        </receiver>
+311
+312        <service
+312-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:26:9-35:19
+313            android:name="androidx.camera.core.impl.MetadataHolderService"
+313-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:27:13-75
+314            android:enabled="false"
+314-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:28:13-36
+315            android:exported="false" >
+315-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:29:13-37
+316            <meta-data
+316-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:32:13-34:89
+317                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+317-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:33:17-103
+318                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+318-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\ahuerta\.gradle\caches\transforms-3\0e9b189e410ec00958a3c054eaea7f88\transformed\camera-camera2-1.1.0-beta02\AndroidManifest.xml:34:17-86
+319        </service>
+320        <service
+320-->[androidx.room:room-runtime:2.2.5] C:\Users\ahuerta\.gradle\caches\transforms-3\a714793eb829de3e267e05849a0f3e0b\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+321            android:name="androidx.room.MultiInstanceInvalidationService"
+321-->[androidx.room:room-runtime:2.2.5] C:\Users\ahuerta\.gradle\caches\transforms-3\a714793eb829de3e267e05849a0f3e0b\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+322            android:directBootAware="true"
+322-->[androidx.room:room-runtime:2.2.5] C:\Users\ahuerta\.gradle\caches\transforms-3\a714793eb829de3e267e05849a0f3e0b\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+323            android:exported="false" />
+323-->[androidx.room:room-runtime:2.2.5] C:\Users\ahuerta\.gradle\caches\transforms-3\a714793eb829de3e267e05849a0f3e0b\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+324        <service
+324-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+325            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+325-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+326            android:exported="false" >
+326-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+327            <meta-data
+327-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+328                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+328-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+329                android:value="cct" />
+329-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ahuerta\.gradle\caches\transforms-3\8c1c351ab4c7fa8d21575714b043fa99\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+330        </service>
+331        <service
+331-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+332            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+332-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+333            android:exported="false"
+333-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+334            android:permission="android.permission.BIND_JOB_SERVICE" >
+334-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+335        </service>
+336
+337        <receiver
+337-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+338            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+338-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+339            android:exported="false" />
+339-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ahuerta\.gradle\caches\transforms-3\0e0639baeab98aa43e3199091c7b2797\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+340    </application>
+341
+342</manifest>
