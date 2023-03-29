@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="app_background_color">#EDEDED</color>
+    <color name="app_blue_color">#356DB1</color>
+    <color name="app_blue_inactive">#4DC5F3</color>
+    <color name="app_blue_initial">#00ADEF</color>
+    <color name="app_blue_pressed">#0088C6</color>
+    <color name="app_naranja_texto">#FF6F6F</color>
+    <color name="app_negro_mercedes">#000000</color>
+    <color name="app_negro_texto">#707070</color>
+    <color name="app_verde_texto">#07AA00</color>
+    <color name="app_white_color">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="meche_background">#000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="acuant_align_mrz">Alinear</string>
+    <string name="acuant_camera_align">ALINEAR</string>
+    <string name="acuant_camera_align_and_tap">ALINEAR Y TOCAR</string>
+    <string name="acuant_camera_capturing">CAPTURA</string>
+    <string name="acuant_camera_hold_steady">MANTENER ESTABLE</string>
+    <string name="acuant_camera_move_closer">MUÉVETE MAS CERCA</string>
+    <string name="acuant_camera_not_in_frame">DEMASIADO CERCA!</string>
+    <string name="acuant_closer_mrz">Muévete mas cerca</string>
+    <string name="acuant_glare_mrz">Reposicionar</string>
+    <string name="acuant_read_mrz">Leer exitoso</string>
+    <string name="acuant_reading_mrz">Leyendo MRZ</string>
+    <string name="app_name">Mercedes-Benz Financial Services</string>
+    <string name="aviso_texto_lorem">
+        Lorem ipsum dolor sit amet. Quibusdam distinctio rem reprehenderit necessitatibus et rerum nihil qui quidem commodi nam ipsam architecto. Est labore quia et voluptatum nemo et pariatur laudantium eos nihil consequatur.
+        Aut mollitia animi ex aperiam dignissimos sit suscipit corrupti eos unde consequatur est perspiciatis autem. In inventore natus et cupiditate perferendis et velit quae in voluptatibus ratione. Ea odit dignissimos ut cumque autem est consequuntur incidunt id rerum maiores.
+        In quam maiores est suscipit excepturi et dicta animi vel aperiam numquam. Et quis autem quo facere omnis qui odit quos sit fugit voluptatem est labore quisquam a repellat sint.
+        Est commodi quis sit provident rerum vel enim unde aut ullam voluptatem et voluptatum consequatur. Et ipsam illo ut omnis unde est exercitationem doloremque ex necessitatibus veritatis.
+        Ut inventore quod aut natus iure a numquam ipsum est consequatur dicta aut eaque magnam ut assumenda ipsa cum culpa dolore. Id libero commodi ad nobis consequatur qui cumque recusandae eos dolor deleniti est harum aspernatur non tempore laborum non doloribus molestiae!
+        \n
+        Lorem ipsum dolor sit amet. Est debitis officia ut velit unde et voluptates cupiditate aut quos repellat. Ex voluptas veritatis aut impedit perferendis eum nihil dolor? Sit tempore internos non illum culpa ut consequatur illo in tempore repellendus sit ipsum unde in nihil fuga ut earum modi?
+        In perspiciatis soluta sit nihil itaque non labore eligendi. Ab optio voluptate non dolores omnis qui illo dolor et officiis praesentium et amet voluptates ut corrupti alias. Nam voluptatem velit qui unde voluptas qui rerum ipsa a nobis reprehenderit qui minima corporis in galisum quod in soluta impedit. Sit nemo veritatis aut enim consequuntur ut saepe quis et voluptas aliquid ea molestiae rerum in voluptate tempora et possimus.
+        Ut mollitia laudantium eum reprehenderit dicta sit repellendus omnis aut rerum accusamus sed soluta dignissimos. Ab consequatur soluta ex ipsa dolorem id esse quae. Aut voluptatem molestiae qui voluptas sunt et velit dolor ut sapiente perspiciatis eos tenetur corrupti est perspiciatis nesciunt.
+        Ab expedita voluptate sed  voluptatum qui architecto nihil 33 maxime enim ut corrupti pariatur est voluptatem dicta est voluptatem error.Ut labore tenetur sed voluptates molestiae id amet eaque aut totam illo. Non doloribus corporis id laudantium vitae qui rerum vero 33 rerum alias sit molestiae sint aut officiis dolorum aut inventore tenetur.
+        Vel nihil minus est laboriosam iure qui optio sint eos modi aspernatur ut illum incidunt est quas minima aut voluptas vitae. Et recusandae tempora sed pariatur inventore 33 magnam eius ea pariatur cupiditate et obcaecati fuga eum officia facere. Non harum voluptatem in nemo dolore ut doloribus autem quo voluptatum voluptas ut sunt vero.Tempore aspernatur aut consectetur harum ut voluptas assumenda. Est accusantium deleniti id earum optio in nisi sequi rem laborum necessitatibus aut minima nihil.
+        \n
+
+    </string>
+    <string name="bright_background">Fondo brillante</string>
+    <string name="cap_id_text">
+         <![CDATA[
+        Captura una fotografía de la identificación oficial vigente <b><span style="color:#00ADEF";>(INE, pasaporte o cédula profesional no mayor a 10 años)</span></b> para validar la identidad del solicitante. Empezaremos con el frente de su identificación
+
+
+    ]]>
+    </string>
+    <string name="capture_aborted">"Captura abortada"</string>
+    <string name="capture_aborted_due_to_timeout">"¡Captura abortada debido a tiempo de espera!"</string>
+    <string name="compliant">Capturando</string>
+    <string name="dark_background">Fondo oscuro</string>
+    <string name="dark_glasses">Lentes oscuros</string>
+    <string name="error_algorithm_initialization_failed">Operation failed because of fingerprint algorithm initialization failure!</string>
+    <string name="error_algorithm_reinitialize">Operation failed because of fingerprint algorithm is initialized repeatedly!</string>
+    <string name="error_algorithm_uninitialize">Operation failed because fingerprint algorithm is not initialized!</string>
+    <string name="error_bad_image">Operation failed because of unqualified fingerprint image!</string>
+    <string name="error_card_not_activate">Operation failed because card is not activated!</string>
+    <string name="error_card_validate_failed">Operation failed because of encryption key authentication failure!</string>
+    <string name="error_database_full">Operation failed because database is full!</string>
+    <string name="error_decode">Operation failed because of decoding failure!</string>
+    <string name="error_device_busy">Operation failed because device is busy!</string>
+    <string name="error_device_not_found">Operation failed because device is not found!</string>
+    <string name="error_device_not_open">Operation failed because device is not open!</string>
+    <string name="error_device_reopen">Operation failed because device is repeatedly turned on!</string>
+    <string name="error_initialization_failed">Operation failed because of initialization failure!</string>
+    <string name="error_invalid_card">Operation failed because card is not supported!</string>
+    <string name="error_invalid_decode_lib">Operation failed because decoding library is invalid!</string>
+    <string name="error_invalid_feature_data">Operation failed because of invalid fingerprint feature data!</string>
+    <string name="error_library_missing">Operation failed because fingerprint algorithm library is missing!</string>
+    <string name="error_low_point">Operation failed because fingerprint verification score is too low!</string>
+    <string name="error_no_card">Operation failed because no card is found!</string>
+    <string name="error_no_finger">Operation failed because of no fingers found!</string>
+    <string name="error_no_paper">Paper has been exhausted!</string>
+    <string name="error_no_permission">Operation failed because of no permission!</string>
+    <string name="error_no_result">Operation failed because of no match fingerprint is found in database!</string>
+    <string name="error_not_enough_memory">Operation failed because of insufficient memory!</string>
+    <string name="error_not_enrolled">Operation failed because fingerprint is not enrolled!</string>
+    <string name="error_not_match">Operation failed because fingerprint dose not match!</string>
+    <string name="error_not_support">Operation failed because it\'s not supported!</string>
+    <string name="error_operation_failed">Operation failed!</string>
+    <string name="error_out_of_bound">Operation failed because fingerprint ID is out of range!</string>
+    <string name="error_repeated_enroll">Operation failed because of fingerprint is enrolled repeatedly!</string>
+    <string name="error_timeout">Operation failed because of timeout!</string>
+    <string name="error_unknown">Operation failed because of unknown error!</string>
+    <string name="error_wrong_connection">Operation failed because of wrong connection!</string>
+    <string name="error_wrong_parameter">Operation failed because of wrong parameter!</string>
+    <string name="face_shadows">Sombras de cara</string>
+    <string name="face_too_close">Cara demasiado cerca</string>
+    <string name="face_too_far">Cara demasiado lejos</string>
+    <string name="face_too_high">Cara demasiado alta</string>
+    <string name="face_too_left">Cara descentrada a la izquierda</string>
+    <string name="face_too_low">Cara demasiado baja</string>
+    <string name="face_too_right">Cara descentrada a la derecha</string>
+    <string name="forehead_covered">Frente cubierta</string>
+    <string name="glare">Destello</string>
+    <string name="heavy_frames">Marcos pesados</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hold">SOSTENER</string>
+    <string name="htmlFormattedText">
+    <![CDATA[
+        <p>
+        El presente Aviso de Privacidad únicamente aplica para aquellas personas físicas que, no teniendo una calidad comercial o profesional,
+        proporcionan sus datos
+        personales a Mercedes-Benz Mobility México, S. de R.L. de C.V. Lo anterior significa que el presente Aviso de Privacidad no resulta aplicable para:
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;1. &nbsp;&nbsp;Aquella información proporcionada por personas físicas con actividad empresarial.
+         </p>
+        <p>
+         &nbsp;&nbsp;&nbsp;&nbsp;2. &nbsp;&nbsp;Aquella información referente a personas morales.
+         </p>
+        <p>
+        En el supuesto de que el presente Aviso de Privacidad le resulte aplicable, le informamos que el tratamiento de sus datos personales se realizará conforme a lo establecido en éste.
+        </p>
+        <p>
+        <b>
+        Identidad y Domicilio del Responsable
+        </b>
+        </p>
+        <p>
+        El Responsable del tratamiento de sus datos personales será la sociedad Mercedes-Benz Mobility México, S. de R.L. de C.V. (en adelante denominada como “MBMOMX”)
+        con domicilio en Avenida Santa Fe No. 428, Torre III, Piso 10, Colonia Santa Fe Cuajimalpa, Alcaldía Cuajimalpa de Morelos, C.P. 05348, Ciudad de México, México.
+        </p>
+        <p>
+        <b>
+        Categorías de Datos Personales Sujetas a Tratamiento
+        </b>
+        </p>
+         <p>
+        Los datos personales que proporciona usted voluntariamente a través de la solicitud de crédito, contratos y demás documentos celebrados entre usted y MBMOMX
+        pertenecen a las siguientes categorías de datos: (i) datos de identificación; (ii) datos de contacto; (iii) datos patrimoniales y/o financieros; (iv) datos laborales; (v) datos
+        relacionados con el vehículo objeto del crédito, incluyendo su geolocalización.
+        </p>
+        <p>
+        Asimismo, para cumplir con las finalidades previstas en el presente Aviso de Privacidad se dará tratamiento a su huella digital, la cual es considerada como un dato
+        personal sensible.
+        </p>
+        <p>
+        Finalmente, le informamos que los datos personales de terceras personas que usted nos proporcione (familiares, dependientes económicos y referencias &nbsp;&nbsp;&nbsp;&nbsp;personales) serán tratados para los fines del presente Aviso de Privacidad. En caso de que usted nos proporcione dicha información, se entenderá que ha obtenido del tercero de quien proporcione datos personales su consentimiento.
+        </p>
+        <p>
+        <b>
+        Finalidades Primarias del Tratamiento
+        </b>
+        </p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Solicitantes:</b></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Identificarlo y autenticarlo mediante el tratamiento de su huella digital con la finalidad de evitar fraudes y robos de identidad.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Evaluar la información que nos proporciona en su solicitud de crédito para analizar si usted es o no sujeto al crédito solicitado.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Contactarlo en relación con la solicitud de crédito para validar su información o requerirle información adicional.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Verificar su historial crediticio ante Sociedades de Información Crediticia con las que MBMOMX mantengan una relación jurídica.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Realizar investigaciones para combatir el lavado de dinero, fraudes y cualquier otra actividad ilícita.</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Clientes:</b></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Cumplir con las obligaciones contractuales contraídas con usted.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Realizar actividades de validación y autenticación de su identidad durante el mantenimiento de la relación contractual con la finalidad de evitar fraudes
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y robos de identidad.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Gestión de credenciales de acceso para otorgarle acceso a la plataforma web de clientes.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. La contratación de seguros propios o de terceros, así como la prestación de los servicios solicitados o contratados por usted con MBMOMX al
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;respecto.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Hacer consultas, investigaciones y revisiones en relación con sus quejas o reclamaciones presentadas a través de nuestro Centro de Atención a Clientes,
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;así como a través de los medios electrónicos destinados para este fin.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Hacer consultas, investigaciones y revisiones relacionadas con los servicios y/o productos contratados por usted con MBMOMX, mismos que pueden
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ser realizados por proveedores contratados directamente por MBMOMX, los cuales realizarán dichas consultas, investigaciones y revisiones apegándose al
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;presente Aviso de Privacidad.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Contactarlo para cualquier tema relacionado a los servicios y/o productos contratados.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. En caso de que usted incurra en mora, llevar a cabo gestiones de cobranza que incluyen llamadas, envío de correos electrónicos, visitas personales,
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;envío de mensajes SMS, requerimientos y cartas, así como el procesamiento de solicitudes, aclaraciones, investigaciones y facturación de cargos relacionados
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;con los productos y/o servicios ofrecidos y contratados por usted, los cuales podrán ser realizados a través de MBMOMX o a través de terceros contratados
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directamente por MBMOMX, los cuales realizarán las gestiones de cobranza apegados al presente Aviso de Privacidad, así como a las disposiciones vigentes
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aplicables a las gestiones de cobranza.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. En algunos casos, de conformidad con lo pactado en su contrato celebrado entre MBMOMX y usted, MBMOMX podrá llevar a cabo diversos trámites ante
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoridades vehiculares para las cuales usted haya dado su consentimiento, solicitado o en su caso sean requeridos.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Realizar investigaciones para combatir el lavado de dinero, fraudes y cualquier otra actividad ilícita.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. Realizar actividades tendientes a actualizar su información para cumplir con la calidad de los datos.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. En su caso, para realizar actividades de geolocalización del vehículo objeto del crédito para fines de conocer su ubicación cuando resulte necesario
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para efecto de dar cumplimiento y/o garantizar el cumplimiento de las obligaciones contractuales contraídas con usted, así como cuando resulte necesario
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para proteger los intereses y/o el ejercicio de los derechos de MBMOMX.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13. Cumplir con aquellas legislaciones que resulten aplicables a MBMOMX;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de la relación jurídica que mantiene con nosotros.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14. Realizar la cesión o transmisión de los derechos y/u obligaciones derivados de la relación jurídica que mantiene con nosotros.</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Avales u Obligados Solidarios:</b></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Gestionar todas las acciones derivadas de la relación jurídica como aval/avalista en la que se encuentra.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Analizar su capacidad de crédito y, en su caso, darlo de alta como persona física que fungirá como aval/avalista para efectos de garantizar las
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;obligaciones de determinado(s) cliente(s) respaldado(s) por usted de manera consciente y voluntaria.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Dar seguimiento a solicitudes y/o consultas que usted nos haya planteado respecto a productos, servicios, cotizaciones, investigaciones y revisiones en
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relación con sus quejas o reclamaciones; y/o cualquier otro evento o circunstancia que nos solicite y se pueda derivar de la presente relación jurídica, para
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lo cual le estaremos contactando únicamente bajo los canales de comunicación proporcionados por usted.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Gestiones de cobranza que incluyen llamadas, envío de correos electrónicos, visitas personales, envío de mensajes SMS, requerimientos y cartas, así
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;como el procesamiento de solicitudes, aclaraciones, investigaciones y facturación de cargos relacionados con los productos y/o servicios ofrecidos y
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratados por usted, los cuales podrán ser realizados a través de MBMOMX o a través de terceros contratados directamente por MBMOMX, los cuales
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;realizarán las gestiones de cobranza apegados al presente Aviso de Privacidad, así como a las disposiciones vigentes aplicables a las gestiones de
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cobranza. Una vez que el deudor principal (o usted) haya cumplido con su obligación contractual, MBMOMX procederá a la cancelación de sus datos,
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mediante el bloqueo y posterior supresión de dicha información conforme a las disposiciones legales correspondientes.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Realizar investigaciones para combatir el lavado de dinero, fraudes y cualquier otra actividad ilícita.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Realizar actividades tendientes a actualizar su información para cumplir con la calidad de los datos.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Cumplir con aquellas legislaciones que resulten aplicables a MBMOMX.</p>
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Representantes Legales:</b></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Validar su debida representación.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Contactarlo para cualquier tema relacionado con los servicios y/o productos contratados.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Realizar investigaciones para combatir el lavado de dinero, fraudes y cualquier otra actividad ilícita.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Realizar actividades tendientes a actualizar su información para cumplir con la calidad de los datos.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Cumplir con aquellas legislaciones que resulten aplicables a MBMOMX.</p>
+        <p>
+        <b>
+        Finalidades Secundarias del Tratamiento
+        </b>
+        </p>
+        <p>Las presentes finalidades tienen como base de legitimación su consentimiento, lo que significa que usted en cualquier momento puede oponerse, o revocar su
+        consentimiento para que sus datos personales sean tratados para cualquiera de las finalidades secundarias aquí señaladas. Las presentes finalidades aplican&nbsp;&nbsp;&nbsp;&nbsp; para
+        solicitantes, clientes, y avales de MBMOMX. Asimismo, le informamos que en caso de que usted otorgue su consentimiento, las presentes finalidades&nbsp;&nbsp; subsistirán incluso
+        cuando usted no mantenga una relación jurídica con nosotros. </p>
+        <p>1. Contactarle para realizar encuestas de satisfacción.</p>
+        <p>2. Contactarle para fines de prospección comercial incluyendo el envío de comunicaciones a través de correos electrónicos, llamadas telefónicas, mensajes cortos y demás medios de comunicación físicos y/o electrónicos.</p>
+        <p>3. Llevar a cabo actividades necesarias para tendientes a promover, mantener, mejorar y evaluar los servicios de MBMOMX.</p>
+        <p>
+        <b>
+        Medio para Oponerse a los Tratamientos de Datos Personales Informados en el Presente Aviso
+        </b>
+        </p>
+        <p> En caso de que no desee que sus datos personales sean tratados para alguna o todas las finalidades secundarias antes descritas, desde este momento usted nos puede
+        comunicar lo anterior al correo datospersonales@mercedes-benz.com</p>
+        <p>La negativa para el uso de sus datos personales para fines adicionales no podrá ser un motivo para negarle los servicios solicitados o dar por terminada la &nbsp;&nbsp;&nbsp;&nbsp;relación establecida con nosotros.</p>
+         <p>
+        <b>
+       Transferencias y Remisiones de Datos Personales
+        </b>
+        </p>
+        <p>1. Autoridades competentes en los casos legalmente previstos. Para cumplir con disposiciones aplicables. No sujeta a su consentimiento.</p>
+        <p>2. Empresas que forman parte del mismo Grupo societario y/o comercial que MBMOMX, nacionales e internacionales y que tienen políticas vinculantes en materia de protección de datos personales y operan bajo las mismas políticas internas que MBMOMX, incluyendo a nuestra compañía controladora, empresas &nbsp;&nbsp;&nbsp;&nbsp;subsidiarias y afiliadas. Para llevar a cabo cualquiera de las finalidades previstas en el presente Aviso de Privacidad. No sujeta a su consentimiento.</p>
+        <p>3. Sociedades de información crediticia. Para consultar su información, monitorear su comportamiento crediticio e informar sobre el mismo. No sujeta a su consentimiento.</p>
+        <p>4. Terceros con los que se formalicen acuerdos relacionados con la cesión o transmisión de los derechos y/u obligaciones derivados de la relación jurídica que mantiene con nosotros. No sujeta a consentimiento.</p>
+        <p>
+        <b>
+        Remisiones
+        </b>
+        </p>
+        <p>También, tendrán acceso, en su carácter de encargados del tratamiento, proveedores externos, nacionales e internacionales, para ayudarnos o darnos soporte en la gestión de las finalidades mencionadas en el presente Aviso de Privacidad. Todos nuestros encargados del tratamiento cumplen con lo exigido en la legislación aplicable.</p>
+        <p>
+        <b>
+        Medio y Procedimiento para ejercer cualquiera de sus Derechos ARCO y Revocar su Consentimiento
+        </b>
+        </p>
+        <p>Usted, o su representante legal, podrá ejercer cualquiera de los derechos ARCO, así como revocar su consentimiento para el tratamiento de sus datos personales enviando un correo electrónico al Comité de Privacidad de MBMOMX a la dirección electrónica datospersonales@mercedes-benz.com Para que el Comité de Privacidad de MBMOMX pueda darle seguimiento a su solicitud, usted, o su representante legal, deberá acreditar correctamente su identidad para lo que es necesario que acompañe su solicitud con copia de alguna identificación oficial y vigente y en su caso, el poder que acredite la representación legal correspondiente.</p>
+        <p>En caso de que la información proporcionada en la solicitud sea errónea o insuficiente, o bien, no se acompañen los documentos de acreditación correspondientes,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; el Comité de Privacidad de MBMOMX, dentro de los 05 (cinco) días hábiles siguientes a la recepción de la solicitud, podrá requerirle que aporte los elementos o documentos necesarios para dar trámite a la misma. Usted contará con 10 (diez) días hábiles para atender el requerimiento, contados a partir del día siguiente en que lo haya recibido. De no dar respuesta en dicho plazo, se tendrá por no presentada la solicitud correspondiente.</p>
+        <p>El Comité de Privacidad de MBMOMX le comunicará la determinación adoptada, en un plazo máximo de 20 (veinte) días hábiles contados desde la fecha en que &nbsp;&nbsp;&nbsp;&nbsp;&nbsp se recibió la solicitud, a efecto de que, si resulta procedente, haga efectiva la misma dentro de los 15 (quince) días hábiles siguientes a que se comunique la respuesta. La respuesta se dará vía electrónica a la dirección de correo que se especifique en la Solicitud.</p>
+         <p>
+        <b>
+        Medio y Procedimiento para Limitar el Uso y/o Divulgación de sus Datos Personales
+        </b>
+        </p>
+        <p>Usted podrá limitar el uso o divulgación de sus datos personales enviando su Solicitud al Comité de Privacidad de MBMOMX al correo electrónico datospersonales@mercedes-benz.com</p>
+        <p>Los requisitos para acreditar su identidad, así como el procedimiento para atender su solicitud, se regirán por los mismos criterios señalados en el apartado anterior. En caso de que su solicitud resulte procedente, el Comité de Privacidad de MBMOMX lo registrará en el listado de exclusión interno de MBMOMX.</p>
+        <p>
+        <b>
+        Cookies y/o Web Beacons
+        </b>
+        </p>
+        <p>Nuestras páginas de internet utilizan cookies y/o web beacons para facilitar su navegación.</p>
+        <p>Para más información consulta las políticas de privacidad disponibles en nuestras páginas de internet.</p>
+        <p>
+        <b>
+        Cambios al Presente Aviso de Privacidad
+        </b>
+        </p>
+        <p>Cualquier cambio o modificación al presente aviso podrá efectuarse por MBMOMX en cualquier momento, conforme lo permite la normatividad, y se dará a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conocer previa solicitud al correo datospersonales@mercedes-benz.com</p>
+        <p>
+        <b>
+        Comité de Privacidad de MBMOMX
+        </b>
+        </p>
+        <p>Nuestro Comité de Privacidad queda a sus órdenes para proporcionarle cualquier información adicional que requiera o, en su caso, para resolver cualquier duda que pudiera surgirle en materia de privacidad y protección de datos personales, para lo que podrá contactarnos a través del correo electrónico datospersonales@mercedes-benz.com </p>
+        <p>
+        <b>
+        Otra Información Relevante
+        </b>
+        </p>
+        <p>MBMOMX trabaja juntamente con sus Distribuidores Autorizados para dar cumplimiento con la legislación aplicable y vigente en materia de protección de Datos Personales y ofrece a todos ellos información relativa a las obligaciones que de ella emanan. Sin embargo, es importante mencionar que los Distribuidores Autorizados son personas morales distintas e independientes a MBMOMX por lo que MBMOMX no es responsable del tratamiento que los Distribuidores  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autorizados den a los Datos Personales recabados por éstos. En caso de que usted proporcione su información personal a un distribuidor, éste deberá proporcionarles su Aviso de Privacidad conforme a lo establecido en la legislación aplicable y vigente. </p>
+ <p>
+        <b>
+        Autoridad en Materia de Protección de Datos Personales
+        </b>
+        </p>
+        <p>Le informamos que la autoridad competente en la materia de protección de datos personales es el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI).</p>
+
+
+
+
+]]>
+</string>
+    <string name="invalid_pose">Pose inválida</string>
+    <string name="left_eye_closed">Ojo izquierdo cerrado</string>
+    <string name="left_eye_covered">Ojo izquierdo cubierto</string>
+    <string name="lighting_too_bright">Demasiada luz</string>
+    <string name="lighting_too_dark">Poca luz</string>
+    <string name="lighting_unnatural">Iluminación antinatural</string>
+    <string name="mouth_obscured">Boca oculta</string>
+    <string name="multiple_faces">Multiples caras</string>
+    <string name="no_face">No cara</string>
+    <string name="off">Apagado</string>
+    <string name="operation_successful">Operation is successful!</string>
+    <string name="out_of_focus">Fuera de foco</string>
+    <string name="pdf_address">Dirección</string>
+    <string name="pdf_amaterno">Apellido Materno</string>
+    <string name="pdf_apatero">Apellido Paterno</string>
+    <string name="pdf_apellidos">Apellidos</string>
+    <string name="pdf_birth">Fecha de nacimiento</string>
+    <string name="pdf_bnumber">Back Number</string>
+    <string name="pdf_curp">CURP</string>
+    <string name="pdf_emision">Fecha de emisión</string>
+    <string name="pdf_nacionalidad">Nacionalidad</string>
+    <string name="pdf_ndocumento">Número de documento</string>
+    <string name="pdf_nombre">Nombre</string>
+    <string name="pdf_nombre_full">Nombre completo</string>
+    <string name="pdf_sexo">Sexo</string>
+    <string name="pdf_vencimiento">Fecha de vencimiento</string>
+    <string name="pdf_viz">VIZ Registration Number</string>
+    <string name="pdfirma_estado">Estado</string>
+    <string name="pdfirma_titulo">Información General\n</string>
+    <string name="position_device_vertically">"Coloque el dispositivo verticalmente"</string>
+    <string name="right_eye_closed">Ojo derecho cerrado</string>
+    <string name="right_eye_covered">Ojo derecho cubierto</string>
+    <string name="send_email">
+         <![CDATA[
+        Se ha enviado un link <b><span style="color:#00ADEF";>a tu correo</span></b> donde recuperarás tu contraseña, revisa tu bandeja de entrada.
+
+
+    ]]>
+    </string>
+    <string name="smile_present">Sonrisa presente</string>
+    <style name="SplashTheme" parent="Theme.Mercedes">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <style name="Theme.Mercedes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/app_negro_mercedes</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">#393939</item>
+        
+    </style>
+    <style name="Theme.Mercedes.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Mercedes.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Mercedes.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
