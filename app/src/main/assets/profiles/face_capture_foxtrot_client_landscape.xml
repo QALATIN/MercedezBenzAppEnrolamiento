@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="7000000">
+    <facial_dynamic_range minimum="7.0" maximum="8.0"/>
+    <left_eye_closed minimum="0" maximum="75"/>
+    <right_eye_closed minimum="0" maximum="75"/>
+    <dark_glasses minimum="0" maximum="50"/>
+    <eye_separation minimum="100"/>
+    <!--<pose_angle_roll minimum="-5" maximum="5"/>-->
+    <eye_axis_location_ratio minimum=".55" maximum=".65" preferred=".6"/>
+    <centerline_location_ratio minimum=".42" maximum=".58" preferred=".5"/>
+    <head_width_to_image_width_ratio minimum=".35" maximum=".55" />
+    <head_height_to_image_height_ratio maximum=".8"/>
+</profile>
