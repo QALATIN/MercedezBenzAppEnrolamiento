@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<setting>
+    <acuant_username>amillan@latinid.com.mx</acuant_username>
+    <acuant_password>g4XvRPC#j!uWi4@^</acuant_password>
+    <acuant_subscription>3304c354-6e31-49fd-aab7-517478cd574f</acuant_subscription>
+    <frm_endpoint>https://frm.acuant.net</frm_endpoint>
+    <med_endpoint>https://medicscan.acuant.net</med_endpoint>
+    <assureid_endpoint>https://services.assureid.net</assureid_endpoint>
+    <passive_liveness_endpoint>https://us.passlive.acuant.net</passive_liveness_endpoint>
+    <acas_endpoint>https://acas.acuant.net</acas_endpoint>
+    <ozone_endpoint>https://ozone.acuant.net</ozone_endpoint>
+</setting>
