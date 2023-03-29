@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@mipmap/analizando00" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando01" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando02" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando03" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando04" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando05" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando06" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando07" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando08" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando09" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando10" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando11" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando12" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando13" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando14" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando15" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando16" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando17" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando18" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando19" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando20" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando21" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando22" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando23" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando24" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando25" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando26" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando27" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando28" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando29" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando30" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando31" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando32" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando33" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando34" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando35" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando36" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando37" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando38" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando39" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando40" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando41" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando42" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando43" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando44" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando45" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando46" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando47" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando48" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando49" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando50" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando51" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando52" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando53" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando54" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando55" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando56" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando57" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando58" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando59" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando60" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando61" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando62" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando63" android:duration="50"/>
+    <item android:drawable="@mipmap/analizando64" android:duration="50"/>
+
+
+
+</animation-list>

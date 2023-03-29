@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:clickable="true"
+    tools:context=".ui.nuevosolicitante.archivos.DocsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="30px"
+        android:background="@color/app_white_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginStart="40px"
+            android:layout_marginTop="30px"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/corpoattlecondofficeregular"
+            android:text="Archivo digital"
+            android:textSize="40px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/texto_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="30px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="En este paso necesitarás la siguiente documentación:"
+            android:textSize="22px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100px"
+            android:layout_marginTop="40px"
+            android:fontFamily="@font/corpostextofficebold"
+            android:text="Comprobante de domicilio"
+            android:textColor="@color/app_blue_initial"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="CFE, TELMEX. No mayor a 2 meses"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDomicilio"
+            style="@style/Widget.MaterialComponents.Chip.Entry"
+            android:layout_width="@+id/textView6"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20px"
+            android:checked="true"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLength="25"
+            android:checkable="false"
+            android:text=""
+            android:textAlignment="textEnd"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/capturarDomicilio"
+            app:layout_constraintEnd_toStartOf="@+id/capturarDomicilio"
+            app:layout_constraintTop_toTopOf="@+id/capturarDomicilio" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/capturarDomicilio"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Añadir"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verDomicilio"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Ver"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_color"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/corpostextofficebold"
+            android:text="Comprobante bancario"
+            android:textColor="@color/app_blue_initial"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Estado de cuenta"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipBancario"
+            style="@style/Widget.MaterialComponents.Chip.Entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20px"
+            android:checked="true"
+            android:ellipsize="start"
+            android:checkable="false"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="inherit"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/capturaBancario"
+            app:layout_constraintEnd_toStartOf="@+id/capturaBancario"
+            app:layout_constraintTop_toTopOf="@+id/capturaBancario" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/capturaBancario"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Añadir"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verBancario"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="ver"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20dp"
+            android:background="@color/app_blue_color"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/corpostextofficebold"
+            android:text="*Comprobante de ingresos"
+            android:textColor="@color/app_blue_initial"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Recibo de nómina"
+            android:textSize="22px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipIngresos"
+            style="@style/Widget.MaterialComponents.Chip.Entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20px"
+            android:checked="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:checkable="false"
+            android:text=""
+            android:textAlignment="inherit"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/capturarIngesos"
+            app:layout_constraintEnd_toStartOf="@+id/capturarIngesos"
+            app:layout_constraintTop_toTopOf="@+id/capturarIngesos" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/capturarIngesos"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Añadir"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verIngresos"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginEnd="100px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Ver"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="invisible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/siguiente"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:backgroundTint="@color/app_blue_initial"
+            android:enabled="false"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Siguiente"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/capturarIngesos" />
+
+        <ImageView
+            android:id="@+id/gif_mercedes"
+            android:layout_width="75px"
+            android:layout_height="75px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/capturarIngesos" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:clickable="true"
+    tools:context=".ui.nuevosolicitante.SendInfoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_envio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30px"
+        android:layout_marginVertical="30px"
+        android:background="@color/app_white_color"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20px"
+            android:layout_marginTop="20px"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/arrow_back"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/corpoattlecondofficeregular"
+            android:text="Enviar paquete"
+            android:textSize="40px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/texto_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Ingresa folio de la solicitud"
+            android:textAlignment="textStart"
+            android:textSize="22px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/outlinedFol"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:hint="Folio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:fontFamily="@font/corpostextofficeregular"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="13"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="50dp"
+            android:background="@color/app_background_color"
+            app:layout_constraintTop_toBottomOf="@+id/outlinedFol" />
+
+        <TextView
+            android:id="@+id/texto_mensaje2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="20px"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:gravity="center"
+            android:text="La información está completa ¿quieres enviar la información?"
+            android:textAlignment="center"
+            android:textSize="22px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendPack"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="200dp"
+            android:backgroundTint="@color/app_blue_initial"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Enviar"
+            android:textColor="@color/app_white_color"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveFolio"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="290px"
+            android:layout_height="75px"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/corpostextofficeregular"
+            android:text="Guardar"
+            android:textColor="@color/app_blue_initial"
+            android:textSize="18px"
+            android:visibility="visible"
+            app:cornerRadius="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:strokeColor="@color/app_blue_initial" />
+
+        <ImageView
+            android:id="@+id/gif_mercedes"
+            android:layout_width="75px"
+            android:layout_height="75px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texto_mensaje2" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_enviado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="30px"
+            android:layout_marginVertical="30px"
+            android:background="@color/app_white_color"
+            android:clickable="true"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/corpoattlecondofficeregular"
+                android:text="El paquete se envió con éxito"
+                android:textColor="#0FA320"
+                android:textSize="40px"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@mipmap/paquete_send"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginHorizontal="100px"
+                android:layout_marginTop="50dp"
+                android:background="@color/app_background_color"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <TextView
+                android:id="@+id/texto_pregunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100px"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/corpostextofficebold"
+                android:gravity="center"
+                android:text="¿Deseas agregar un coacreditado o aval?"
+                android:textAlignment="center"
+                android:textSize="22px"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/texto_pregunta">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonCoa"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="75px"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/corpostextofficeregular"
+                    android:text="Agregar coacreditado"
+                    android:textColor="@color/app_blue_initial"
+                    android:textSize="18px"
+                    android:visibility="visible"
+                    app:cornerRadius="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/texto_pregunta"
+                    app:strokeColor="@color/app_blue_initial" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonAval"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="75px"
+
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/corpostextofficeregular"
+                    android:text="Agregar aval"
+                    android:textColor="@color/app_blue_initial"
+                    android:textSize="18px"
+                    android:visibility="visible"
+                    app:cornerRadius="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/texto_pregunta"
+                    app:strokeColor="@color/app_blue_initial" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonfinalizar"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="75px"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_weight="0.5"
+                    android:backgroundTint="@color/app_blue_initial"
+                    android:fontFamily="@font/corpostextofficeregular"
+                    android:text="Finalizar"
+                    android:textColor="@color/app_white_color"
+                    android:textSize="18px"
+                    android:visibility="visible"
+                    app:cornerRadius="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/texto_pregunta" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
