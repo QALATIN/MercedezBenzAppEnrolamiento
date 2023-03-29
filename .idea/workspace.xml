@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="_device_class_tablet" />
+        <device id="_device_class_desktop" />
+        <device id="10.1in WXGA (Tablet)" />
+        <device id="Nexus 10" />
+        <device id="_device_class_foldable" />
+        <option name="nonWearDeviceLastStateName" value="landscape" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f85c47e-1975-4084-8d12-b3f1c67f5071" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/Main3Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/Main3Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/applicants/CompleteProcessFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/applicants/CompleteProcessFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/applicants/InProcessFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/applicants/InProcessFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/LoginFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/RecoveryPassFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/home/RecoveryPassFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/ReviewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/ReviewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/SendInfoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/SendInfoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/archivos/DocsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/archivos/DocsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/archivos/ViewPdfFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/archivos/ViewPdfFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/CapNfcActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/CapNfcActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/Extras.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/Extras.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/NfcFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/NfcFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/UtilsPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/UtilsPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/facecapture/fragments/FaceAwareFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/facecapture/fragments/FaceAwareFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/facecapture/fragments/LivenessFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/facecapture/fragments/LivenessFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/fingerprint/HuellasFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/fingerprint/HuellasFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/privacypolicy/SignatureBackWok.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/privacypolicy/SignatureBackWok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/privacypolicy/SignaturePolicyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/privacypolicy/SignaturePolicyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/selfie/SelfieFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/selfie/SelfieFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/selfie/rest/RestClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/selfie/rest/RestClientTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/BinnacleCongif.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/BinnacleCongif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/Conexiones.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/Conexiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/FingerCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/FingerCapture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/OperacionesUtiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/OperacionesUtiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/UpdateFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/util/UpdateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_huellas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_huellas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_update.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_update.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-R28M50J8A2K-4EfrdE._adb-tls-connect._tcp]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2BwwbJn74niv9RxIFPMRTQA9u3E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WORKMANAGER_INSPECTOR_NOTIFICATION_DISMISSED" value="true" />
+    <property name="android-custom-viewC:/Users/ahuerta/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.6.1/d4d703885d24c61bc0ec39a9a705969e41d773ef/material-1.6.1-sources.jar!/com/google/android/material/navigation/NavigationView.java_NavigationView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/ahuerta/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.6.1/d4d703885d24c61bc0ec39a9a705969e41d773ef/material-1.6.1-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED" value="NavigationView" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AndroidSDKV11-master (1)/AndroidSDKV11-master" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\mipmap-xhdpi" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\layout" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\assets" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\drawable" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\drawable" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\drawable-xhdpi" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\mipmap-anydpi-v26" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\ahuerta\Documents\Mercedes\Mercedes\app\src\main\res\mipmap-xhdpi" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.latinid.mercedes" />
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante.selfie" />
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante.capturaid" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.latinid.mercedes" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.latinid.mercedes" />
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.latinid.mercedes.util" />
+      <recent name="com.latinid.mercedes.ui.home" />
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante.capturaid" />
+      <recent name="com.latinid.mercedes.model.local" />
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante.selfie.rest" />
+    </key>
+    <key name="android.template.-1754183789">
+      <recent name="com.latinid.mercedes.ui.nuevosolicitante.capturaid" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Mercedes.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mercedes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Mercedes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f85c47e-1975-4084-8d12-b3f1c67f5071" name="Changes" comment="" />
+      <created>1657830526783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657830526783</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/archivos/DocsFragment.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/applicants/CompleteProcessFragment.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/facecapture/fragments/FaceAwareFragment.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>789</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>922</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>294</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>446</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>479</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>434</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>429</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>437</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/latinid/mercedes/ui/nuevosolicitante/capturaid/IdentificacionFragment.kt</url>
+          <line>465</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

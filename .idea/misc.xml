@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable-v24/boton_azul_sinrelleno.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.204" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable-v24/identification_gif.xml" value="0.3285" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable-v24/stroke_view.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/actionbarimage.xml" value="0.3495" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/analizando_id.xml" value="0.3285" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/boton_azul.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/boton_azul_sinrelleno.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.204" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.204" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/identification.xml" value="0.3285" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/layout_border.xml" value="0.3495" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/loadinggeneral.xml" value="0.3285" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/side_nav_bar.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/splash_screen.xml" value="0.1885" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/drawable/troke_view.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/activity_cap_nfc.xml" value="0.1" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/activity_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/activity_main2.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/activity_prueba.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/app_bar_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/appposition_indicator.xml" value="0.26171875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/content_main.xml" value="0.3673245614035088" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_action_button.xml" value="0.55703125" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_aviso.xml" value="0.12788700133613284" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_captura_id.xml" value="0.5796875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_complete_process.xml" value="0.32367149758454106" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_docs.xml" value="0.12" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_face_aware.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_home.xml" value="0.575" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_huellas.xml" value="0.19661458333333334" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_identificacion.xml" value="0.575" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_in_process.xml" value="0.33" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_liveness_custom.xml" value="0.26171875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_liveness_view.xml" value="0.2673726009265387" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_liveness_viewface.xml" value="0.10520833333333333" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_login.xml" value="1.0" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_menu_id.xml" value="0.75" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_menu_skip.xml" value="1.0" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_message.xml" value="0.4759036144578313" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_modo_captura.xml" value="0.43614457831325304" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_nfc.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_password.xml" value="0.5" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_review.xml" value="0.57421875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_selfie.xml" value="0.55703125" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_selfie_aware.xml" value="0.50546875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_send_info.xml" value="0.5" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_sendlog.xml" value="0.19557291666666668" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_signature_policy.xml" value="0.12016460905349795" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_slideshow.xml" value="0.127734375" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_sub_menu.xml" value="0.5" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_update.xml" value="0.4759036144578313" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/fragment_view_pdf.xml" value="0.56875" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/image_custome_actionbar.xml" value="0.19" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/image_custome_actionbar_nfc.xml" value="0.1" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/modocaptura.xml" value="0.56484375" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/layout/nav_header_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/menu/activity_main_drawer.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/menu/main.xml" value="0.127734375" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/menu/menu_gener.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/mipmap-anydpi-v26/meche.xml" value="0.3505" />
+        <entry key="..\:/Users/ahuerta/Documents/Mercedes/Mercedes/app/src/main/res/xml/file_paths.xml" value="0.17447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

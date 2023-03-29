@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mercedes.iml" filepath="$PROJECT_DIR$/.idea/modules/Mercedes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mercedes.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mercedes.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mercedes.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mercedes.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mercedes.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mercedes.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mercedes.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mercedes.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Mercedes.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Mercedes.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Mercedes.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Mercedes.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Mercedes.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Mercedes.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Mercedes.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Mercedes.library.unitTest.iml" />
+    </modules>
+  </component>
+</project>
